@@ -8,8 +8,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		AWS.AGM(1, 122, 5); // AGM(double a0, double b0, int folgeglieder);
-
+		//AWS.AGM(1, 122, 5); // AGM(double a0, double b0, int folgeglieder);
+		AWS.AGM(1, 122, 15);
 	}
 
 }

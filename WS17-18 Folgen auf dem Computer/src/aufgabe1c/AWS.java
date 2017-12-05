@@ -22,7 +22,12 @@ public class AWS {
 				System.out.println("a"+ counter + ": " + a_n_plus_1 + "\nb" + counter + ": " + b_n_plus_1 + "\n\n ######## \n");
 			}
 			
-			counter++;
+			if(String.valueOf(a_n_plus_1).equals(String.valueOf(b_n_plus_1))){
+				System.out.println("\nA und B konvergieren gegen " + a_n_plus_1 + ". Die Rekursion wurde nach " + counter + " Durchläufen abgebrochen.");
+				counter = folgeglieder;
+			}else{
+				counter++;
+			}
 			
 			AGM(a_n_plus_1, b_n_plus_1, folgeglieder);
 			
