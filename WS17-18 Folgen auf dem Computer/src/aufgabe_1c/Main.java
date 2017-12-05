@@ -1,4 +1,4 @@
-package aufgabe1c;
+package aufgabe_1c;
 
 public class Main {
 
