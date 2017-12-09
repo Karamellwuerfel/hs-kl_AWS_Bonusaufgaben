@@ -14,17 +14,17 @@ public class Main {
 	
 	public static void Pi(){
 		
-		double a = 2 * Math.sqrt(3);
-		double b = 3;
+		double a_k = 2 * Math.sqrt(3);
+		double b_k = 3;
 		
-		while(a != b){
+		while(a_k < b_k) {
 			
-			a = 2 * a * b / (a + b);
-			b = Math.sqrt(a * b);
+			b_k = 2 / (Math.pow(b_k, -1) + (Math.pow(a_k, -1)));
+			a_k = Math.sqrt((a_k)*b_k);
 			
 		}
 		
-		System.out.println(a);
+
 		
 	}
 
