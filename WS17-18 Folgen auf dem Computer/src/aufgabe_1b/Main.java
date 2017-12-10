@@ -1,4 +1,4 @@
-package aufgabe_1b; // b) Wäahlen sie zwei Zahlen a und b aus und bestimmen Sie die ersten 5 Folgeglieder von (an) und (bn)!
+package aufgabe_1b; // b) Wäahlen sie zwei Zahlen a und b aus und bestimmen Sie die ersten 5 Folgeglieder von (an) und (bn)
 
 
 
